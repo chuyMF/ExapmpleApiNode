@@ -4,7 +4,6 @@
   "description": "Api rest del master de JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "Jesus Morales",
@@ -16,6 +15,7 @@
     "mongoose": "^5.5.1"
   },
   "devDependencies": {
+    "jest": "^25.1.0",
     "nodemon": "^1.18.11"
   }
 }
